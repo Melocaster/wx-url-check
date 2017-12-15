@@ -8,7 +8,7 @@ def handleRequest(request):
            response = HttpResponse(checkSignature(request))
            return response
 
-TOKEN = "Wenhan"
+TOKEN = "appropolis"
 def checkSignature(request):
     global TOKEN
     signature = request.GET.get("signature", None)
