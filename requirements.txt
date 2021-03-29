@@ -13,7 +13,7 @@ middleware==1.2.3
 oauth2-provider==0.0
 packaging==16.8
 psycopg2==2.7.1
-Pygments==2.2.0
+Pygments==2.7.4
 pyparsing==2.2.0
 requests==2.18.1
 singledispatch==3.4.0.3
